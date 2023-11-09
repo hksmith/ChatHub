@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module">
+        import course from "./course.html";
+    </script>
+</head>
+<body>
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" id="close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="open" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>ChatHub</h1>
+            <p>ChatHub is a global chat app that connects people worldwide with just a single click. Stay connected easily by creating an account and chatting with anyone across the globe.</p>
+        </div>
+    </section>
+
+<!-- campus -->
+
+    <section class="campus" id="features">
+        <h1>Features Our Site Includes</h1>
+
+        <div class="row">
+            <div>
+                <div class="campus-col">
+                    <img src="images/login.png" alt="">
+                    <div class="layer">
+                        <h3>Login page</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/chat.png" alt="">
+                    <div class="layer">
+                        <h3>Chat page</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="campus-col">
+                    <img src="images/send.png" alt="">
+                    <div class="layer">
+                        <h3>Sending images</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Call To Action -->
+
+<section class="cta">
+    <h1>Try our chat site<br> Anywhere Form The World</h1>
+    <a href="" class="hero-btn">TRY US</a>
+</section>
+
+<!-- testimoials -->
+
+    <section class="testimoials">
+        <h1>What Our Users Says</h1>
+        <p>Sharing their experience and what they feel about our service</p>
+
+        <div class="row">
+            <div class="testimoials-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>The esaist way to stay connected.</p>
+                    <h3>Christina Byer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimoials-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>I love the features it has and it ui, i can't expect more.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+
+    <section class="footer">
+        <div class="about" id="about">
+            <h4>About Us</h4>
+            <p>At ChatHub, we're dedicated to creating a platform that fosters global connections and communication. We believe that the world is a better place when people from diverse backgrounds can effortlessly connect and engage in meaningful conversations.
+
+                Our mission is to provide a seamless and user-friendly chat experience, allowing you to chat with anyone, anywhere, with just a single click. We're committed to breaking down barriers and making the world feel smaller by enabling instant connections between individuals around the globe.
+                
+                Join us on this journey to embrace diversity, foster understanding, and expand your horizons. ChatHub is more than just a chat app; it's a bridge that brings the world closer together, one conversation at a time.</p>
+        </div>
+        <div class="icons">
+            <a><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/kalab_solo/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kalab-solomon/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made With  <i class="fa fa-heart-o"></i> by Kalab Solomon</p>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
